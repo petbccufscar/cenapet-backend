@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "Noticia"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "private": false,
+      "required": true
+    },
+    "conteudo": {
+      "type": "richtext",
+      "required": true
+    },
+    "img_fundo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "data_publicacao": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "noticias"
+}
