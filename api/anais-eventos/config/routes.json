@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anais-eventos",
+      "handler": "anais-eventos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anais-eventos",
+      "handler": "anais-eventos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anais-eventos",
+      "handler": "anais-eventos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
