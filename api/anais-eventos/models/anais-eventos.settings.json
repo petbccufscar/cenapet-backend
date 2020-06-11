@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "anaisEventos",
+  "info": {
+    "name": "anais-eventos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "conteudo": {
+      "type": "richtext"
+    }
+  }
+}
