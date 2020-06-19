@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "doc_comissaos",
+  "info": {
+    "name": "Doc-Comissao"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "conteudo": {
+      "type": "richtext"
+    }
+  }
+}
