@@ -15,6 +15,7 @@
     "@popperjs/core": "^2.4.0",
     "acorn": "6.4.1",
     "apollo-server-core": "2.14.2",
+    "axios": "^0.19.2",
     "chokidar": "^3",
     "core-js": "^3",
     "graphql": "^14.2.1",

@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "sobre_diretorias",
+  "info": {
+    "name": "sobre-diretoria"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Sobre": {
+      "type": "richtext"
+    }
+  }
+}

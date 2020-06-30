@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "pessoas",
+  "info": {
+    "name": "Pessoas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "foto": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "cargo": {
+      "type": "string"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "facebookLink": {
+      "type": "string"
+    },
+    "petLink": {
+      "type": "string"
+    },
+    "universidadeCampus": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "nomePet": {
+      "type": "string"
+    }
+  }
+}

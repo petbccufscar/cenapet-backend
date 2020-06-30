@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sobre-diretoria",
+      "handler": "sobre-diretoria.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sobre-diretoria",
+      "handler": "sobre-diretoria.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sobre-diretoria",
+      "handler": "sobre-diretoria.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

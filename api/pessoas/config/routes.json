@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pessoas",
+      "handler": "pessoas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pessoas/count",
+      "handler": "pessoas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pessoas/:id",
+      "handler": "pessoas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pessoas",
+      "handler": "pessoas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pessoas/:id",
+      "handler": "pessoas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pessoas/:id",
+      "handler": "pessoas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
