@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/outros",
+      "handler": "outros.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/outros",
+      "handler": "outros.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/outros",
+      "handler": "outros.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

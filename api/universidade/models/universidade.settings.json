@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "universidades",
+  "info": {
+    "name": "Universidade"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nome": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Site": {
+      "type": "string"
+    },
+    "campi": {
+      "via": "universidade",
+      "collection": "campus"
+    }
+  }
+}

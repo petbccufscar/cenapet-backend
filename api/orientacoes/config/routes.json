@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/orientacoes",
+      "handler": "orientacoes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/orientacoes/count",
+      "handler": "orientacoes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/orientacoes/:id",
+      "handler": "orientacoes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/orientacoes",
+      "handler": "orientacoes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/orientacoes/:id",
+      "handler": "orientacoes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/orientacoes/:id",
+      "handler": "orientacoes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

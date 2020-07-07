@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "docs_conselhos",
+  "info": {
+    "name": "Docs-conselho"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "conteudo": {
+      "type": "richtext"
+    }
+  }
+}

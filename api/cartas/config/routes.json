@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cartas",
+      "handler": "cartas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cartas",
+      "handler": "cartas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cartas",
+      "handler": "cartas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

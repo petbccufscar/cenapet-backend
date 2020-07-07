@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/docs-conselho",
+      "handler": "docs-conselho.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/docs-conselho",
+      "handler": "docs-conselho.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/docs-conselho",
+      "handler": "docs-conselho.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

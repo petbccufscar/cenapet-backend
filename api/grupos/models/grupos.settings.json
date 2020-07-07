@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "grupos",
+  "info": {
+    "name": "Grupos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "conteudo": {
+      "type": "richtext"
+    }
+  }
+}

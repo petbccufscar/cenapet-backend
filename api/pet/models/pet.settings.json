@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "pets",
+  "info": {
+    "name": "PET"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nome": {
+      "type": "string",
+      "required": true
+    },
+    "Logo": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Midias": {
+      "type": "richtext"
+    },
+    "Universidade": {
+      "type": "string",
+      "required": true
+    },
+    "campus": {
+      "model": "campus"
+    }
+  }
+}

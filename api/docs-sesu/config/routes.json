@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/docs-sesu",
+      "handler": "docs-sesu.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/docs-sesu",
+      "handler": "docs-sesu.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/docs-sesu",
+      "handler": "docs-sesu.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

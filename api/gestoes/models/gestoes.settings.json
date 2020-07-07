@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "gestoes",
+  "info": {
+    "name": "Gestoes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "anoInicio": {
+      "type": "string"
+    },
+    "anoTermino": {
+      "type": "string"
+    },
+    "pessoas": {
+      "via": "gestao",
+      "collection": "pessoas"
+    }
+  }
+}

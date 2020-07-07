@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "orientacoes",
+  "info": {
+    "name": "Orientacoes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Conteudo": {
+      "type": "richtext"
+    }
+  }
+}

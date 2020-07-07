@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gestoes",
+      "handler": "gestoes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gestoes/count",
+      "handler": "gestoes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gestoes/:id",
+      "handler": "gestoes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gestoes",
+      "handler": "gestoes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gestoes/:id",
+      "handler": "gestoes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gestoes/:id",
+      "handler": "gestoes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
