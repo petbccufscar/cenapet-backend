@@ -1,19 +1,16 @@
 {
   "kind": "singleType",
   "connection": "default",
-  "collectionName": "sobre_diretorias",
+  "collectionName": "grupos",
   "info": {
-    "name": "Sobre-diretoria"
+    "name": "Grupos"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "sobre": {
-      "type": "richtext"
-    },
-    "objetivos": {
+    "conteudo": {
       "type": "richtext"
     }
   }

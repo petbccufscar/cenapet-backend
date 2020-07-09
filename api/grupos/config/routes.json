@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/grupos",
+      "handler": "grupos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/grupos",
+      "handler": "grupos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/grupos",
+      "handler": "grupos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

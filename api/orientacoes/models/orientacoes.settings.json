@@ -1,19 +1,19 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "connection": "default",
-  "collectionName": "sobre_diretorias",
+  "collectionName": "orientacoes",
   "info": {
-    "name": "Sobre-diretoria"
+    "name": "Orientacoes"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "sobre": {
-      "type": "richtext"
+    "Titulo": {
+      "type": "string"
     },
-    "objetivos": {
+    "Conteudo": {
       "type": "richtext"
     }
   }

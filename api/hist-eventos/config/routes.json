@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hist-eventos",
+      "handler": "hist-eventos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hist-eventos/count",
+      "handler": "hist-eventos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hist-eventos/:id",
+      "handler": "hist-eventos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hist-eventos",
+      "handler": "hist-eventos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hist-eventos/:id",
+      "handler": "hist-eventos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hist-eventos/:id",
+      "handler": "hist-eventos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
