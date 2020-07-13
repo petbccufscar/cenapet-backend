@@ -47,6 +47,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/geojson",
+      "handler": "pet.geojson",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }

@@ -23,10 +23,6 @@
     "Midias": {
       "type": "richtext"
     },
-    "Universidade": {
-      "type": "string",
-      "required": true
-    },
     "campus": {
       "model": "campus"
     }
