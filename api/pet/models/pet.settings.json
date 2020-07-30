@@ -12,7 +12,7 @@
   "attributes": {
     "Nome": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "Logo": {
       "collection": "file",
@@ -20,11 +20,53 @@
       "plugin": "upload",
       "required": false
     },
-    "Midias": {
-      "type": "richtext"
-    },
     "campus": {
       "model": "campus"
+    },
+    "Nome_IES": {
+      "type": "string"
+    },
+    "Cidade": {
+      "type": "string"
+    },
+    "Estado": {
+      "type": "string"
+    },
+    "Ano_criacao": {
+      "type": "integer"
+    },
+    "Eixo": {
+      "type": "string"
+    },
+    "Tematica": {
+      "type": "string"
+    },
+    "Email_pet": {
+      "type": "email"
+    },
+    "Site_pet": {
+      "type": "string"
+    },
+    "Outras_midias": {
+      "type": "richtext"
+    },
+    "site_pet_ies": {
+      "type": "string"
+    },
+    "universidade": {
+      "model": "universidade"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
     }
   }
 }

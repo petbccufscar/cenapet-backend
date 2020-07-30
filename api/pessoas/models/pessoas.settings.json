@@ -40,6 +40,10 @@
     "gestao": {
       "model": "gestoes",
       "via": "pessoas"
+    },
+    "conselho": {
+      "via": "pessoas",
+      "model": "conselhos"
     }
   }
 }
