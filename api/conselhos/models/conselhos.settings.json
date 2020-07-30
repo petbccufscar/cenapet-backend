@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conselhos",
+  "info": {
+    "name": "Conselhos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "anoInicio": {
+      "type": "string"
+    },
+    "anoTermino": {
+      "type": "string"
+    },
+    "pessoas": {
+      "collection": "pessoas",
+      "via": "conselho"
+    }
+  }
+}

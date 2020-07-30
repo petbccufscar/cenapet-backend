@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conselhos",
+      "handler": "conselhos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conselhos/count",
+      "handler": "conselhos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conselhos/:id",
+      "handler": "conselhos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/conselhos",
+      "handler": "conselhos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conselhos/:id",
+      "handler": "conselhos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conselhos/:id",
+      "handler": "conselhos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
