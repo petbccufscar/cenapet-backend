@@ -1,9 +1,9 @@
 {
   "kind": "collectionType",
   "connection": "default",
-  "collectionName": "hist_eventos",
+  "collectionName": "eventos",
   "info": {
-    "name": "Hist_eventos"
+    "name": "Evento"
   },
   "options": {
     "increments": true,
@@ -14,13 +14,22 @@
       "type": "string"
     },
     "logo": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
     },
-    "informacoes": {
+    "data_inicio": {
+      "type": "date"
+    },
+    "local": {
+      "type": "string"
+    },
+    "links": {
       "type": "richtext"
+    },
+    "data_fim": {
+      "type": "date"
     }
   }
 }

@@ -10,21 +10,24 @@
     "timestamps": true
   },
   "attributes": {
-    "Nome": {
+    "nome": {
       "type": "string",
       "required": true
     },
-    "Latitude": {
+    "latitude": {
       "type": "float",
       "required": true
     },
-    "Longitude": {
+    "longitude": {
       "type": "float",
       "required": true
     },
     "universidade": {
-      "model": "universidade",
-      "via": "campi"
+      "via": "campi",
+      "model": "universidade"
+    },
+    "cidade": {
+      "type": "string"
     }
   }
 }

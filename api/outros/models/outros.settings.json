@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "outros",
   "info": {
-    "name": "outros"
+    "name": "Outros"
   },
   "options": {
     "increments": true,

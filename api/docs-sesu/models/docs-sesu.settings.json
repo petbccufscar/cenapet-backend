@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
   "connection": "default",
-  "collectionName": "docs_sesus",
+  "collectionName": "docs_sesu",
   "info": {
-    "name": "Docs-Sesu"
+    "name": "docs-sesu"
   },
   "options": {
     "increments": true,

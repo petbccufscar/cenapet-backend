@@ -1,4 +1,7 @@
 {
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "noticias",
   "info": {
     "name": "Noticia"
   },
@@ -24,9 +27,10 @@
     },
     "data_publicacao": {
       "type": "date",
-      "required": true
+      "required": false
+    },
+    "apareceCarrossel": {
+      "type": "boolean"
     }
-  },
-  "connection": "default",
-  "collectionName": "noticias"
+  }
 }

@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
   "connection": "default",
-  "collectionName": "docs_comissaos",
+  "collectionName": "docs_comissao",
   "info": {
-    "name": "Docs-comissao"
+    "name": "docs-comissao"
   },
   "options": {
     "increments": true,

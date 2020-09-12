@@ -3,7 +3,7 @@
   "connection": "default",
   "collectionName": "org_eventos",
   "info": {
-    "name": "Org-eventos"
+    "name": "org-eventos"
   },
   "options": {
     "increments": true,

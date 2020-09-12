@@ -10,12 +10,12 @@
     "timestamps": true
   },
   "attributes": {
-    "Nome": {
+    "nome": {
       "type": "string",
       "required": false
     },
-    "Logo": {
-      "collection": "file",
+    "logo": {
+      "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
@@ -23,38 +23,27 @@
     "campus": {
       "model": "campus"
     },
-    "Nome_IES": {
-      "type": "string"
-    },
-    "Cidade": {
-      "type": "string"
-    },
-    "Estado": {
-      "type": "string"
-    },
-    "Ano_criacao": {
+    "ano_criacao": {
       "type": "integer"
     },
-    "Eixo": {
+    "eixo": {
       "type": "string"
     },
-    "Tematica": {
+    "tematica": {
       "type": "string"
     },
-    "Email_pet": {
-      "type": "email"
+    "email_pet": {
+      "type": "email",
+      "unique": true
     },
-    "Site_pet": {
+    "site_pet": {
       "type": "string"
     },
-    "Outras_midias": {
+    "outras_midias": {
       "type": "richtext"
     },
     "site_pet_ies": {
       "type": "string"
-    },
-    "universidade": {
-      "model": "universidade"
     },
     "youtube": {
       "type": "string"
@@ -67,6 +56,12 @@
     },
     "instagram": {
       "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
   "connection": "default",
-  "collectionName": "docs_conselhos",
+  "collectionName": "docs_conselho",
   "info": {
-    "name": "Docs-conselho"
+    "name": "docs-conselho"
   },
   "options": {
     "increments": true,

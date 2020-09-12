@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
   "connection": "default",
-  "collectionName": "sobre_diretorias",
+  "collectionName": "sobre_diretoria",
   "info": {
-    "name": "Sobre-diretoria"
+    "name": "sobre-diretoria"
   },
   "options": {
     "increments": true,

@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "conselhos",
   "info": {
-    "name": "Conselhos"
+    "name": "Conselho"
   },
   "options": {
     "increments": true,

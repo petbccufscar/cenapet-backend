@@ -10,10 +10,10 @@
     "timestamps": true
   },
   "attributes": {
-    "Titulo": {
+    "titulo": {
       "type": "string"
     },
-    "Conteudo": {
+    "conteudo": {
       "type": "richtext"
     }
   }
