@@ -1,55 +1,25 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `pet` model.
+ * Read the documentation (https://strapi.io/documentation/v3.x/concepts/models.html#lifecycle-hooks)
+ * to customize this model
  */
 
+require('dotenv').config();
+const axios = require('axios');
+
 module.exports = {
-  // Before saving a value.
-  // Fired before an `insert` or `update` query.
-  // beforeSave: async (model, attrs, options) => {},
+    lifecycles: {
+        async beforeCreate(data) {
 
-  // After saving a value.
-  // Fired after an `insert` or `update` query.
-  // afterSave: async (model, response, options) => {},
+            const secret_key = process.env.SECRET_KEY;
+            const token = data.token;
 
-  // Before fetching a value.
-  // Fired before a `fetch` operation.
-  // beforeFetch: async (model, columns, options) => {},
+            const gresponse = await axios.post(`https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${token}`)
 
-  // After fetching a value.
-  // Fired after a `fetch` operation.
-  // afterFetch: async (model, response, options) => {},
-
-  // Before fetching all values.
-  // Fired before a `fetchAll` operation.
-  // beforeFetchAll: async (model, columns, options) => {},
-
-  // After fetching all values.
-  // Fired after a `fetchAll` operation.
-  // afterFetchAll: async (model, response, options) => {},
-
-  // Before creating a value.
-  // Fired before an `insert` query.
-  // beforeCreate: async (model, attrs, options) => {},
-
-  // After creating a value.
-  // Fired after an `insert` query.
-  // afterCreate: async (model, attrs, options) => {},
-
-  // Before updating a value.
-  // Fired before an `update` query.
-  // beforeUpdate: async (model, attrs, options) => {},
-
-  // After updating a value.
-  // Fired after an `update` query.
-  // afterUpdate: async (model, attrs, options) => {},
-
-  // Before destroying a value.
-  // Fired before a `delete` query.
-  // beforeDestroy: async (model, attrs, options) => {},
-
-  // After destroying a value.
-  // Fired after a `delete` query.
-  // afterDestroy: async (model, attrs, options) => {}
+            if (!gresponse.data.success) {
+                throw new Error('Recaptcha failed! (' + gresponse.data['error-codes'] + ')');
+            }
+        },
+    },
 };
