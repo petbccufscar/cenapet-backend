@@ -6,6 +6,10 @@ const { sanitizeEntity } = require('strapi-utils');
  * to customize this controller
  */
 
+function random() {
+    return Math.random() * (0.001) - 0.0005;
+}
+
 module.exports = {
     geojson: async ctx => {
         let entities;
@@ -18,16 +22,20 @@ module.exports = {
         let features = [];
 
         for (var i = 0; i < entities.length; i++) {
-            const feature = {
+            let feature = {
                 "type": "Feature",
                 "geometry": {
                     "type": "Point",
-                    "coordinates": [entities[i].campus.Longitude, entities[i].campus.Latitude]
+                    "coordinates": [entities[i].longitude, entities[i].latitude]
                 },
                 "properties": {
-                    "name": entities[i].Nome
+                    "nome": entities[i].nome
                 }
             };
+
+            if (!feature.geometry.coordinates.longitude || !feature.geometry.coordinates.latitude) {
+                feature.geometry.coordinates = [entities[i].campus.longitude + random(), entities[i].campus.latitude + random()];
+            }
             features.push(feature);
         }
 
