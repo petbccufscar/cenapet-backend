@@ -1,6 +1,5 @@
 {
   "kind": "singleType",
-  "connection": "default",
   "collectionName": "cartas",
   "info": {
     "name": "cartas"

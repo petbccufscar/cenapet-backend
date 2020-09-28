@@ -1,6 +1,5 @@
 {
   "kind": "singleType",
-  "connection": "default",
   "collectionName": "docs_conselho",
   "info": {
     "name": "docs-conselho"

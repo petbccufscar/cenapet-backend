@@ -1,6 +1,5 @@
 {
   "kind": "singleType",
-  "connection": "default",
   "collectionName": "anais_eventos",
   "info": {
     "name": "anais-eventos"

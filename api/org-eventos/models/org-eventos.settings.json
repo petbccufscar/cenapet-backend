@@ -1,6 +1,5 @@
 {
   "kind": "singleType",
-  "connection": "default",
   "collectionName": "org_eventos",
   "info": {
     "name": "org-eventos"

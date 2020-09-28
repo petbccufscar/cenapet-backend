@@ -1,6 +1,5 @@
 {
   "kind": "singleType",
-  "connection": "default",
   "collectionName": "sobre_diretoria",
   "info": {
     "name": "sobre-diretoria"
