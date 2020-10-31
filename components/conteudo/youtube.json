@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_conteudo_yt_videos",
+  "info": {
+    "name": "youtube",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video_id": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -10,7 +10,13 @@
   },
   "attributes": {
     "conteudo": {
-      "type": "richtext"
+      "type": "dynamiczone",
+      "components": [
+        "conteudo.citacao",
+        "conteudo.conteudo",
+        "conteudo.imagem",
+        "conteudo.youtube"
+      ]
     }
   }
 }

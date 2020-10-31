@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_conteudo_texto",
+  "info": {
+    "name": "texto",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "conteudo": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

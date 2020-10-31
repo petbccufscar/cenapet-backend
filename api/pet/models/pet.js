@@ -1,10 +1,5 @@
 'use strict';
 
-/**
- * Read the documentation (https://strapi.io/documentation/v3.x/concepts/models.html#lifecycle-hooks)
- * to customize this model
- */
-
 require('dotenv').config();
 const axios = require('axios');
 
@@ -15,10 +10,10 @@ module.exports = {
             const secret_key = process.env.SECRET_KEY;
             const token = data.token;
 
-            const gresponse = await axios.post(`https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${token}`)
+            const google_response = await axios.post(`https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${token}`)
 
-            if (!gresponse.data.success) {
-                throw new Error('Recaptcha failed! (' + gresponse.data['error-codes'] + ')');
+            if (!google_response.data.success) {
+                throw new Error('Recaptcha failed! (' + google_response.data['error-codes'] + ')');
             }
         },
     },

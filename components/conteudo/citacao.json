@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_conteudo_citacoes",
+  "info": {
+    "name": "citacao",
+    "icon": "quote-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "richtext"
+    },
+    "autor": {
+      "type": "string"
+    }
+  }
+}

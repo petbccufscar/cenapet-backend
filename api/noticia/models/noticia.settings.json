@@ -15,14 +15,31 @@
       "required": true
     },
     "conteudo": {
-      "type": "richtext",
-      "required": true
+      "type": "dynamiczone",
+      "components": [
+        "conteudo.citacao",
+        "conteudo.conteudo",
+        "conteudo.imagem",
+        "conteudo.youtube"
+      ]
     },
     "img_fundo": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "img_miniatura": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "data_publicacao": {
       "type": "date",

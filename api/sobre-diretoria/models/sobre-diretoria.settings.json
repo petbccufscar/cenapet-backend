@@ -9,11 +9,17 @@
     "timestamps": true
   },
   "attributes": {
-    "sobre": {
-      "type": "richtext"
-    },
     "objetivos": {
       "type": "richtext"
+    },
+    "conteudo": {
+      "type": "dynamiczone",
+      "components": [
+        "conteudo.citacao",
+        "conteudo.conteudo",
+        "conteudo.imagem",
+        "conteudo.youtube"
+      ]
     }
   }
 }

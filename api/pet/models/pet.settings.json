@@ -17,7 +17,10 @@
       "model": "file",
       "via": "related",
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "campus": {
       "model": "campus"

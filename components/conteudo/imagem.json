@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_conteudo_imagens",
+  "info": {
+    "name": "imagem",
+    "icon": "camera",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "colunas": {
+      "type": "integer",
+      "max": 12,
+      "min": 1,
+      "required": true,
+      "default": 6
+    }
+  }
+}
