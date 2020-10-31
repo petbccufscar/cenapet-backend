@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "video_id": {
+    "id_video": {
       "type": "string",
       "required": true
     }

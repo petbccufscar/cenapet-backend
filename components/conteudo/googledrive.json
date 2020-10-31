@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_conteudo_googledrives",
+  "info": {
+    "name": "googledrive",
+    "icon": "inbox"
+  },
+  "options": {},
+  "attributes": {
+    "link_arquivo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
