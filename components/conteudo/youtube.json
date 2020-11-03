@@ -7,9 +7,12 @@
   },
   "options": {},
   "attributes": {
-    "id_video": {
+    "apenas_id_video": {
       "type": "string",
       "required": true
+    },
+    "descricao": {
+      "type": "string"
     }
   }
 }

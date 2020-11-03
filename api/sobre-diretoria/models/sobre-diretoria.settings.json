@@ -17,6 +17,7 @@
       "components": [
         "conteudo.citacao",
         "conteudo.conteudo",
+        "conteudo.documentos",
         "conteudo.googledrive",
         "conteudo.imagem",
         "conteudo.youtube"

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_conteudo_documentos",
+  "info": {
+    "name": "documentos",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "documentos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
