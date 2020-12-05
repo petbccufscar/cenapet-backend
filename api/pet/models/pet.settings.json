@@ -36,6 +36,14 @@
     "tematica": {
       "type": "string"
     },
+    "grupo_institucional": {
+      "type": "boolean",
+      "default": false
+    },
+    "grupo_conexoes": {
+      "type": "boolean",
+      "default": false
+    },
     "email_pet": {
       "type": "email",
       "unique": true
