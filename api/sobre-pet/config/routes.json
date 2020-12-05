@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sobre-pet",
+      "handler": "sobre-pet.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sobre-pet",
+      "handler": "sobre-pet.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sobre-pet",
+      "handler": "sobre-pet.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

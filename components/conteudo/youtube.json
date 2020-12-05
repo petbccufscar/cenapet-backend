@@ -9,7 +9,7 @@
   "attributes": {
     "apenas_id_video": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "descricao": {
       "type": "string"

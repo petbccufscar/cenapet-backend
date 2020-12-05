@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "reunioes",
+  "info": {
+    "name": "reunioes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "conteudo": {
+      "type": "dynamiczone",
+      "components": [
+        "conteudo.citacao",
+        "conteudo.conteudo",
+        "conteudo.documentos",
+        "conteudo.googledrive",
+        "conteudo.imagem",
+        "conteudo.youtube"
+      ]
+    }
+  }
+}

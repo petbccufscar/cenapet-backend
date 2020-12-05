@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/relatorios-conselho",
+      "handler": "relatorios-conselho.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/relatorios-conselho",
+      "handler": "relatorios-conselho.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/relatorios-conselho",
+      "handler": "relatorios-conselho.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

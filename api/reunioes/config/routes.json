@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reunioes",
+      "handler": "reunioes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reunioes",
+      "handler": "reunioes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reunioes",
+      "handler": "reunioes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

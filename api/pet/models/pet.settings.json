@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "pets",
   "info": {
-    "name": "PET"
+    "name": "PET",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "nome": {
@@ -16,11 +18,11 @@
     "logo": {
       "model": "file",
       "via": "related",
-      "plugin": "upload",
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "plugin": "upload",
+      "required": false
     },
     "campus": {
       "model": "campus"

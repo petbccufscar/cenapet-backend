@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/relatorios-gestoes",
+      "handler": "relatorios-gestoes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/relatorios-gestoes",
+      "handler": "relatorios-gestoes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/relatorios-gestoes",
+      "handler": "relatorios-gestoes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

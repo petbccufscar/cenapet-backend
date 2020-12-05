@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/estatuto",
+      "handler": "estatuto.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/estatuto",
+      "handler": "estatuto.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/estatuto",
+      "handler": "estatuto.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

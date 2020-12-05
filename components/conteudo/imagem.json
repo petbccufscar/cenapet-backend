@@ -23,7 +23,7 @@
       "type": "integer",
       "max": 12,
       "min": 1,
-      "required": true,
+      "required": false,
       "default": 6
     }
   }

@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "pessoas",
   "info": {
-    "name": "Pessoas"
+    "name": "Pessoas",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "foto": {
@@ -19,7 +21,8 @@
       "type": "string"
     },
     "nome": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 30
     },
     "facebookLink": {
       "type": "string"
@@ -41,8 +44,16 @@
       "via": "pessoas"
     },
     "conselho": {
-      "via": "pessoas",
-      "model": "conselhos"
+      "model": "conselhos",
+      "via": "pessoas"
+    },
+    "Categoria": {
+      "type": "enumeration",
+      "enum": [
+        "Docente",
+        "Discente"
+      ],
+      "required": true
     }
   }
 }

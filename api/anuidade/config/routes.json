@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anuidade",
+      "handler": "anuidade.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anuidade",
+      "handler": "anuidade.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anuidade",
+      "handler": "anuidade.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "estatutos",
+  "info": {
+    "name": "Estatuto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "conteudo": {
+      "type": "dynamiczone",
+      "components": [
+        "conteudo.conteudo",
+        "conteudo.documentos",
+        "conteudo.googledrive",
+        "conteudo.imagem",
+        "conteudo.youtube"
+      ]
+    }
+  }
+}
