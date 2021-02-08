@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/doc-comissao",
+      "handler": "doc-comissao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/doc-comissao",
+      "handler": "doc-comissao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/doc-comissao",
+      "handler": "doc-comissao.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
