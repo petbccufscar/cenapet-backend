@@ -26,19 +26,19 @@
     "react-dom": "^16.13.1",
     "react-with-direction": "^1.3.1",
     "sqlite3": "^4.2.0",
-    "strapi": "3.5.1",
-    "strapi-admin": "^3.5.1",
-    "strapi-connector-bookshelf": "3.5.1",
-    "strapi-plugin-content-manager": "3.5.1",
-    "strapi-plugin-content-type-builder": "3.5.1",
-    "strapi-plugin-email": "3.5.1",
-    "strapi-plugin-upload": "^3.5.1",
-    "strapi-plugin-users-permissions": "3.5.1",
-    "strapi-utils": "3.5.1",
+    "strapi": "3.5.4",
+    "strapi-admin": "^3.5.4",
+    "strapi-connector-bookshelf": "3.5.4",
+    "strapi-plugin-content-manager": "3.5.4",
+    "strapi-plugin-content-type-builder": "3.5.4",
+    "strapi-plugin-email": "3.5.4",
+    "strapi-plugin-upload": "^3.5.4",
+    "strapi-plugin-users-permissions": "3.5.4",
+    "strapi-utils": "3.5.4",
     "websocket-extensions": "0.1.4"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "PET-BCC/UFSCar"
   },
   "strapi": {
     "uuid": "6f2f915f-ff6b-4982-8a10-abfd981da431"
